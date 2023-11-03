@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School CRUD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="/subject" method="POST">
+        <p>
+            <label for="subject">Asignatura: </label>
+            <input type="text" name="subject" id="subject">
+        </p>
+
+        <p>
+            <label for="course">Curso: </label>
+            <select name="course" id="course">
+                <option value="1º de ESO">1º de ESO</option>
+                <option value="2º de ESO">2º de ESO</option>
+                <option value="3º de ESO">3º de ESO</option>
+                <option value="4º de ESO">4º de ESO</option>
+                <option value="1º de Bachillerato">1º de Bachillerato</option>
+                <option value="2º de Bachillerato">2º de Bachillerato</option>
+            </select>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+
+</html>
